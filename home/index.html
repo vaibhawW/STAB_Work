@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head id = "header">
+		<!-- Meta -->
+		
+<!-- <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+ -->
+		<meta name="google-site-verification" content="U37UkrwWrB9z8bjUiI4i6-iss8-hQom2u2j5mlSs9v8" />
+		<title>STAB | IITB</title>
+
+		<!-- Bootstrap Core CSS -->
+		<link href="https://stab-iitb.org/assets/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Customizable CSS -->
+		<link href="https://stab-iitb.org/assets/css/main.css" rel="stylesheet" data-skrollr-stylesheet>
+		<link href="https://stab-iitb.org/assets/css/green.css" rel="stylesheet" title="Color">
+		<link href="https://stab-iitb.org/assets/css/owl.carousel.css" rel="stylesheet">
+		<link href="https://stab-iitb.org/assets/css/owl.transitions.css" rel="stylesheet">
+		<link href="https://stab-iitb.org/assets/css/animate.min.css" rel="stylesheet">
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,900,300,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" rel="stylesheet">
+
+		<!-- Icons/Glyphs -->
+		<link href="https://stab-iitb.org/assets/fonts/fontello.css" rel="stylesheet">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="https://stab-iitb.org/assets/images/favicon.ico">
+		<style>
+					</style>
+		<!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
+		<!--[if lt IE 9]>
+			<script src="https://stab-iitb.org/assets/js/html5shiv.js"></script>
+			<script src="https://stab-iitb.org/assets/js/respond.min.js"></script>
+		<![endif]-->
+
+		<script src="https://stab-iitb.org/assets/js/jquery.min.js"></script>
+		<script src="http://gymkhana.iitb.ac.in/sso/static/widget/js/login.min.js" type="application/javascript"></script>
+		
+	</head>
+
+	<body>
+
+
+
+		<!-- ============================================================= HEADER ============================================================= -->
+
+		<header>
+			<div class="navbar">
+
+				<div class="navbar-header">
+					<div class="container">
+
+						<ul class="info pull-left">
+							<li><a href="mailto://oc.stab@iitb.ac.in"><i class="icon-mail-1 contact"></i>oc.stab@iitb.ac.in</a></li>
+						</ul><!-- /.info -->
+
+
+						<ul class="pull-right" style="margin:3px">
+														<!-- <li><a href="http://gymkhana.iitb.ac.in/sso/oauth/authorize/?client_id=UjBW1n7gdAmBoP7OuUTSYEmTTW1FpPfnHuUgSukl&response_type=code&scope=basic%20profile%20sex%20ldap%20picture%20phone%20insti_address%20program&redirect_uri=https://stab-iitb.org/sso_login_redirect&state=some_state" class="btn btn-small btn-green" >SSO Login</a></li>  -->
+							<li><a href="https://stab-iitb.org/login_page" class="btn btn-small btn-green" >Login</a></li>
+													</ul>
+						<ul class="social pull-right">
+							<li><a href="https://www.facebook.com/stab.iitb"><i class="icon-s-facebook"></i></a></li>
+							<li><a href="https://github.com/stabiitb"><i class="icon-s-github"></i></a></li>
+							<li><a href="https://www.youtube.com/user/STABiitb"><i class="icon-s-youtube"></i></a></li>
+							<li><a href="#"><i class="icon-s-gplus"></i></a></li>
+						</ul><!-- /.social -->
+						<div class="pull-left " style="width:40%; all=default;">
+							<div id='cse-search-form' style='width: 100%;'>Loading</div>
+							<script src='//www.google.com/jsapi' type='text/javascript'></script>
+							<script type='text/javascript'>
+							google.load('search', '1', {language: 'en', style: google.loader.themes.V2_DEFAULT});
+							google.setOnLoadCallback(function() {
+							  var customSearchOptions = {};
+							  var orderByOptions = {};
+							  orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+							  customSearchOptions['enableOrderBy'] = true;
+							  customSearchOptions['orderByOptions'] = orderByOptions;
+							  var imageSearchOptions = {};
+							  imageSearchOptions['layout'] = 'google.search.ImageSearch.LAYOUT_POPUP';
+							  customSearchOptions['enableImageSearch'] = true;
+							  var customSearchControl =   new google.search.CustomSearchControl('011681609419535670422:cdwkjdrely0', customSearchOptions);
+							  customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+							  var options = new google.search.DrawOptions();
+							  options.enableSearchboxOnly('https://www.google.com/cse?cx=011681609419535670422:cdwkjdrely0');
+							  options.setAutoComplete(true);
+							  customSearchControl.draw('cse-search-form', options);
+							}, true);
+							</script>
+							<script type="application/javascript">
+					        new SSO_JS({
+					            config: {
+					                client_id: 'UjBW1n7gdAmBoP7OuUTSYEmTTW1FpPfnHuUgSukl',   // Compulsory
+					                scope: ['basic', 'profile'],    // Optional. Default is  ['basic']
+					                state: '', // Optional. Default None
+					                response_type: 'code',  // Optional. Default is 'code'
+					                redirect_uri: 'http://localhost:8088/sso_login_redirect',    //Optional
+					                new_window: 'false',    // Optional.
+					                                        // Where authorization page should be opened in new tab or
+					                                        // same tab Default is false.
+					                sso_root: document.getElementById('sso-root'),
+					                /* Optional
+					                 document.getElementById don't work if your element is not in light DOM. In that case you need to
+					                 provide selector here. In most of the cases this will work.
+					                 */
+					            },
+					            colors: { // All Optional
+					                button_div_bg_color: '39ac90',//'303F9F', // Background color of button
+					                button_anchor_color: 'FFFFFF', // Font color of Button
+					                logout_anchor_color: '727272', // Font color of logout mark (The one with 'Login as other user'
+					            },
+					        }).init();
+					    </script>
+							<style type='text/css'>
+							  input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+							    border-color: #D9D9D9;
+							    height: 38px;
+							    margin-top: 5px;
+							    padding-top: -10px;
+							    font-family: Arial, sans-serif;
+							  }
+							  input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
+							    border-color: #2F5BB7;
+							    background-color: #357AE8;
+							    background-image: none;
+							    height: 28px;
+							    width: 70px;
+							    margin-top: 8px;
+
+							  }
+							</style>
+						</div>
+
+						<!-- ============================================================= LOGO MOBILE ============================================================= -->
+
+						<a class="navbar-brand" href="index.php"><img src="https://stab-iitb.org/assets/images/logo.png" class="logo" alt=""></a>
+
+						<!-- ============================================================= LOGO MOBILE : END ============================================================= -->
+
+						<a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i class='icon-menu-1'></i></a>
+
+					</div><!-- /.container -->
+				</div><!-- /.navbar-header -->
+
+				<div class="yamm">
+					<div class="navbar-collapse collapse">
+						<div class="container">
+
+							<!-- ============================================================= LOGO ============================================================= -->
+
+							<a class="navbar-brand" href="https://stab-iitb.org"><img src="https://stab-iitb.org/assets/images/logo.png" class="logo" alt=""></a>
+
+							<!-- ============================================================= LOGO : END ============================================================= -->
+
+
+							<!-- ============================================================= MAIN NAVIGATION ============================================================= -->
+
+							<ul class="nav navbar-nav">
+
+								<li class="dropdown yamm-fullwidth">
+									<a href="#" class="dropdown-toggle js-activated">About</a>
+
+									<ul class="dropdown-menu yamm-dropdown-menu" style="width: 40%;left:10%">
+										<li>
+											<div class="yamm-content row">
+
+
+												<div class="col-sm-6 inner">
+													<h4></h4>
+
+													<ul class="circled">
+														<li><a href="https://stab-iitb.org/vision-of-stab-team-2014-15">VISION</a></li>
+														<li><a href="https://stab-iitb.org/hall-of-fame">HALL OF FAME</a></li>
+														<li>REPORTS
+															<ul>
+																<li>
+																	<a href="https://stab-iitb.org/InstiReview-HobbyClubs-TechTeams">INSTITUTE REVIEW 2013</a>
+																</li>
+																<li>
+																	<a href="https://stab-iitb.org/annual_report_2014_2015">ANNUAL REPORT 2014-2015</a>
+																</li>
+															</ul>
+														</li>
+													</ul><!-- /.circled -->
+												</div><!-- /.col -->
+
+												<div class="col-sm-6 inner">
+													<h4>CONTACTS</h4>
+
+													<ul class="circled">
+														<li><a href="https://stab-iitb.org/team-stab-2017">TEAM 2017-18</a></li>
+														<li><a href="https://stab-iitb.org/stab-alumni">ALUMNI</a></li>
+														<li><a href="https://stab-iitb.org/faculty-advisor-and-mentor">FACULTY ADVISORS/MENTORS</a></li>
+													</ul><!-- /.circled -->
+												</div><!-- /.col -->
+
+
+											</div><!-- /.yamm-content -->
+										</li>
+									</ul><!-- /.yamm-dropdown-menu -->
+								</li><!-- /.yamm-fullwidth -->
+
+
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle js-activated">Clubs</a>
+
+									<ul class="dropdown-menu">
+										<li><a href="https://stab-iitb.org/aeromodelling-club">Aeromodelling Club</a></li>
+										<li><a href="https://stab-iitb.org/electronics-club">Electronics Club</a></li>
+										<li><a href="https://stab-iitb.org/krittika">Krittika</a></li>
+										<li><a href="https://stab-iitb.org/math-and-physics-club">Math and Physics Club</a></li>
+										<li><a href="https://stab-iitb.org/robotics-club">Robotics Club</a></li>
+										<li><a href="https://stab-iitb.org/wncc">Web and Coding club</a></li>
+									</ul><!-- /.dropdown-menu -->
+								</li><!-- /.dropdown -->
+
+
+								<li class="dropdown">
+										<li><a href="http://www.stab-iitb.org/srg/">Student Reading Group</a></li>
+								</li> <!-- /.dropdown -->
+
+
+								<li class="dropdown">
+									<a href="http://stab-iitb.org/wiki/Main_Page">Stab WIKI</a>
+								</li><!-- /.dropdown -->
+
+
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle js-activated">Tech Teams</a>
+
+									<ul class="dropdown-menu">
+										<li><a target=_blank href="http://www.iitbracing.org/">IITB Racing</a></li>
+										<li><a target=_blank href="http://www.auv-iitb.org/">AUV IITB</a></li>
+										<li><a target=_blank href="http://www.aero.iitb.ac.in/pratham/Pratham/">Pratham</a></li>
+										<li><a target=_blank href="http://www.marssociety.org.in/">Mars Rover</a></li>
+										<li><a target=_blank href="http://www.umic-iitb.org/">Innovation Cell</a></li>
+										<li><a target=_blank href="http://teamshunya.in/">Team Shunya</a></li>
+									</ul><!-- /.dropdown-menu -->
+								</li><!-- /.dropdown -->
+
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle js-activated">IITB Corner</a>
+
+									<ul class="dropdown-menu">
+										<!-- <li><a href="http://stab-iitb.org/technovation">Technovation</a></li> -->
+										<li><a href="https://stab-iitb.org/lightsaber">Light Saber</a></li>
+										<li><a href="https://stab-iitb.org/media/WELpermission.pdf">WEL Lab Permission form</a></li>
+										<li><a href="https://stab-iitb.org/tech-gc-points-2016">Tech GC Rankings</a></li>
+										<li><a href="https://stab-iitb.org/calendar2016">Tech Calendar</a></li>
+									</ul><!-- /.dropdown-menu -->
+								</li><!-- /.dropdown -->
+
+
+
+								<!-- /.dropdown -->
+
+
+							</ul><!-- /.nav -->
+
+							<!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
+
+						</div><!-- /.container -->
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.yamm -->
+			</div><!-- /.navbar -->
+		</header>
+
+		<!-- ============================================================= HEADER : END ============================================================= -->
+				<style>
+	#myDIV {
+	    /*border: 1px solid black;
+	    background-color: lightblue;
+	    width: 300px;
+	    height: 300px;*/
+	    position: fixed;
+	    right : 0%;
+	    top: 17%;
+	}
+	#fb-div {
+	    data-width: 22%;
+	    data-height: 300px;
+
+</style>
+
+<style type="text/css">
+	#mask {
+
+  position: absolute;
+
+  left: 0;
+
+  top: 0;
+
+  z-index: 9000;
+
+  background-color: #000;
+
+  display: none;
+
+}
+
+
+
+#boxes .window {
+
+  position: absolute;
+
+  left: 0;
+
+  top: 0;
+
+  width: 440px;
+
+  height: 200px;
+
+  display: none;
+
+  z-index: 9999;
+
+  padding: 20px;
+
+  border-radius: 15px;
+
+  text-align: center;
+
+}
+
+
+
+#boxes #dialog {
+
+  width: 750px;
+
+  height: 300px;
+
+  padding: 10px;
+
+  background-color: #ffffff;
+
+  font-family: 'Segoe UI Light', sans-serif;
+
+  font-size: 15pt;
+
+}
+
+
+
+#popupfoot {
+
+  font-size: 16pt;
+
+  position: absolute;
+
+  bottom: 0px;
+
+  width: 250px;
+
+  left: 250px;
+
+}
+
+</style>
+		<!-- ============================================================= MAIN ============================================================= -->
+
+		<main>
+		<!--====================================================popup======================================================
+
+		<div id="boxes">
+
+  <div id="dialog" class="window">
+
+    Hello Freshie !
+    <br>
+    Feel free to introduce yourself :)
+    <br>
+    <textarea onKeyUp="count_it()" onKeyDown="count_it()" style="height: 150px; font-size:30px ;font-family: 'Comic Sans MS' "id="special_box" maxlength='101'></textarea>
+    <button class="btn" onclick="hideMask()">Submit</button>
+
+    <div id="popupfoot">
+     <a href="#" class="close agree"></a>
+
+      <a class="agree"style="color:red;" href="#">
+      </a>
+      </div>
+
+  </div>
+
+  <div id="mask"></div>
+
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+<script >
+	function hideMask(){
+		$('#mask').hide();
+		$('.window').hide();
+	}
+
+$(document).ready(function() {
+
+
+
+var id = '#dialog';
+
+//Get the screen height and width
+
+var maskHeight = $(document).height();
+
+var maskWidth = $(window).width();
+
+
+
+//Set heigth and width to mask to fill up the whole screen
+
+$('#mask').css({'width':maskWidth,'height':maskHeight});
+
+//transition effect
+
+$('#mask').fadeIn(500);
+
+$('#mask').fadeTo("slow",0.9);
+
+//Get the window height and width
+
+var winH = $(window).height();
+
+var winW = $(window).width();
+
+
+
+//Set the popup window to center
+
+$(id).css('top',  winH/2-$(id).height()/2);
+
+$(id).css('left', winW/2-$(id).width()/2);
+
+
+
+//transition effect
+
+$(id).fadeIn(2000);
+
+
+//if mask is clicked
+
+$('#mask').click(function () {
+
+$(this).hide();
+
+$('.window').hide();
+
+});
+
+});
+
+</script>
+<script>
+var str="Ideas are dime a dozen, people who implement are priceless. Be one.  STAB welcomes you to IIT Bombay!"
+function count_it() {
+
+document.getElementById('special_box').value = str.substr(0,document.getElementById('special_box').value.length);
+}
+count_it();
+</script>
+		 ====================================================popup======================================================-->
+		 <div class="row">
+			<div class="col-xs-12">
+			<section class="tint-bg">
+				<div class="container ">
+					<div class="row">
+						<div class="col-md-9 col-sm-10 center-block text-center">
+						<ul>
+							<br>
+							 							<!--<li class="single-block"><a href="https://stab-iitb.org/itsp2016" class="btn">ITSP 2016</a></li>
+							 <li class="single-block"><a href="https://stab-iitb.org/positionofresponsibility/techcoordinators2k16" class="btn">Institute Technical Coordinators Form</a></li>-->
+
+							 <li class="single-block"><a href="https://stab-iitb.org/itsp2015/projects" class="btn">ITSP 2015 Projects</a> &emsp; <a href="https://www.youtube.com/watch?v=9EcNSvCPXpg&list=PL2jc8R1dnwjVOj4seOL8Lrmz9s6vdDzHS" class="btn">ITSP 2015 Videos</a></li>
+
+							<!--<li class="single-block"><a href="https://stab-iitb.org/itsp2016/mentor2016" class="btn">ITSP 2016 Mentors Form</a></li>-->
+
+
+							<!--
+							<li class="single-block"><a href="https://stab-iitb.org/itsp2015/tshirt" class="btn">ITSP Tshirt Form</a></li> -->
+							 <!-- <li class="single-block"><a href="https://stab-iitb.org/itsp2015/mentor" class="btn">ITSP 2015 Mentor Registration Link&nbsp</a> </li> -->
+							<!-- <li class="single-block">1) If your idea is selected, you need not worry about room retention, money, anything at all. <br>
+													 2) You need not necessarily have a team while registering now.<br>
+													 3) We'll soon have multiple brainstorming sessions, do attend.<br>
+													 4) Abstract submission deadline will soon be announced.<br>
+													 For further queries join the <a href="https://www.facebook.com/groups/1566380240276628/"><b>ITSP FB group</b></a>.</li> -->
+							<!-- <li class="single-block">Convener and Hostel Technical Secretary Application Form &nbsp<a href="https://stab-iitb.org/positionofresponsibility/techcoordinators2k16" class="btn">Apply</a></li> -->
+							</ul>
+							<br>
+						</div>
+						<!-- <div class="col-md-3">
+							<ul>
+								<li class="single-block"><a href="https://docs.google.com/forms/d/12Svhrqr0oZK2Y6P1T9LAxQMn-e6iNBmh9IqRfXmP4GU/viewform" class="btn">XLR8 Mentor Registration</a> </li>
+							</ul>
+						</div> -->
+					</div>
+
+				</div>
+			</section>
+
+			
+			<section id="services">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-sm-10 center-block text-center" style="">
+							<header>
+							<br>
+								<h1>Hobby Clubs</h1>
+							</header>
+						</div>
+						<div class="col-xs-12">
+							<div class="tabs tabs-services tabs-circle-top tab-container">
+
+								<ul class="etabs text-center">
+									<li class="tab"><a href="#tab-1"><div><i class="icon-flight"></i></div>Aeromodelling Club</a></li>
+									<li class="tab"><a href="#tab-2"><div><i class="icon-flow-tree"></i></div>Electronics Club</a></li>
+									<li class="tab"><a href="#tab-3"><div><i class="icon-star"></i></div>Krittika</a></li>
+									<li class="tab"><a href="#tab-4"><div><i class="icon-beaker"></i></div>Maths and Physics Club</a></li>
+									<li class="tab"><a href="#tab-5"><div><i class="icon-magnet"></i></div>Robotics Club</a></li>
+									<li class="tab"><a href="#tab-6"><div><i class="icon-code"></i></div>Web and Coding Club</a></li>
+								</ul><!-- /.etabs -->
+
+								<div class="panel-container">
+
+									<div class="tab-content" id="tab-1">
+										<div class="row">
+
+											<div class="col-md-5 col-md-offset-1 col-sm-6 inner-right-xs">
+												<figure><img src="https://stab-iitb.org/assets/images/art/aero-small.png" alt=""></figure>
+											</div><!-- /.col -->
+
+											<div class="col-md-5 col-sm-6 inner-left-xs">
+												<h3><a href="https://stab-iitb.org/aeromodelling-club">Aeromodelling Club</a></h3>
+												<p>The Aeromodelling Club, IIT-Bombay envision the club becoming open to more people through activities that are fun to perform and require minimal input .Club also want the entry barrier – both financial and otherwise -for participating in aero modelling events to be reduced, so that a lot more people can participate. Apart from increasing participation, Club desire to encourage people to innovate a lot by extending all possible help to them.
+												</p>
+												<a href="https://stab-iitb.org/aeromodelling-club" class="btn btn-blue">Visit WebPage</a>
+												<a href="https://groups.google.com/forum/#!forum/aeromodellingiitb" class="btn btn-red">Join Google-Group</a>
+											</div><!-- /.col -->
+
+										</div><!-- /.row -->
+									</div><!-- /.tab-content -->
+
+									<div class="tab-content" id="tab-2">
+										<div class="row">
+
+											<div class="col-md-5 col-md-push-5 col-md-offset-1 col-sm-6 col-sm-push-6 inner-left-xs">
+												<figure><img src="https://stab-iitb.org/assets/images/art/elec-small.png" alt=""></figure>
+											</div><!-- /.col -->
+
+											<div class="col-md-5 col-md-pull-5 col-sm-6 col-sm-pull-6 inner-right-xs">
+												<h3><a href="https://stab-iitb.org/electronics-club">Electronics Club</a></h3>
+												<p>Current scenario: Majority of the club activities are focused on freshmen. Main issue with senior participation is that they have not been able to relate themselves with the sessions that are planned keeping them in mind. </p>
+												<ul class="arrowed">
+													<li>Improve the participation of PGs in the club activities</li>
+													<li>Increase involvement of seniors through informal meets and try to get product level outputs</li>
+													<li>Give a purpose to each and every learning session that is organized</li>
+												</ul>
+												<a href="https://stab-iitb.org/electronics-club" class="btn btn-blue">Visit WebPage</a>
+												<a href="https://groups.google.com/forum/#!forum/elec-club" class="btn btn-red">Join Google-Group</a>
+											</div><!-- /.col -->
+
+										</div><!-- /.row -->
+									</div><!-- /.tab-content -->
+
+									<div class="tab-content" id="tab-3">
+										<div class="row">
+
+											<div class="row">
+
+											<div class="col-md-5 col-md-offset-1 col-sm-6 inner-right-xs">
+												<figure><img src="https://stab-iitb.org/assets/images/art/krit-small.png" alt=""></figure>
+											</div><!-- /.col -->
+
+											<div class="col-md-5 col-sm-6 inner-left-xs">
+												<h3><a href="https://stab-iitb.org/krittika">Krittika - The Astronomy CLub</a></h3>
+												<p>Every one of us is amazed by the spectacle of the night sky and feels curious about its mysteries that lay hidden in plain sight. But very few follow it up as they grow up. At Krittika, we provide you an opportunity to do just that. Krittika is IIT Bombay’s focal point for amateur astronomers and casual stargazers alike. This year I want to focus my efforts on increasing the outreach of the club.
+												</p>
+												<a href="https://stab-iitb.org/krittika" class="btn btn-blue">Visit WebPage</a>
+												<a href="https://groups.google.com/forum/#!forum/krittika" class="btn btn-red">Join Google-Group</a>
+											</div><!-- /.col -->
+
+										</div><!-- /.row -->
+
+										</div><!-- /.row -->
+									</div><!-- /.tab-content -->
+
+									<div class="tab-content" id="tab-4">
+										<div class="row">
+
+											<div class="col-md-5 col-md-push-5 col-md-offset-1 col-sm-6 col-sm-push-6 inner-left-xs">
+												<figure><img src="https://stab-iitb.org/assets/images/art/mnp-small.png" alt=""></figure>
+											</div><!-- /.col -->
+
+											<div class="col-md-5 col-md-pull-5 col-sm-6 col-sm-pull-6 inner-right-xs">
+												<h3><a href="https://stab-iitb.org/math-and-physics-club">Maths and Physics Club</a></h3>
+												<p>Maths and Physics Club conducts several events throughout the semester. Our events vary from casual events such as movie screenings, demonstrations of physical phenomenon and quizzes to formal events such as lectures and Olympiad level paper solving. We have always motivated students to explore Physics and Maths, we also fund students for making their own demonstrations and experiments. Our flagship event, Bazinga, is a quiz that relies solely on your concepts rather than the dry and conventional algorithmic procedure of solving questions with pre-defined methods. We also conduct Group Discussions (popularly known as GDs) where everyone is invited to discuss Physics and Maths and go out as a more learned person than they were when they came in. Apart from this, we host lectures from eminent researchers and students alike and we also screen inspiring documentaries and movies based on Maths and Physics. All in all, we are a self-sustaining community of intellectuals, students & professors, across ages and departments, who enjoy sharing knowledge through platforms provided by our club​ and if you talk Physics and Maths, there is no better place for you than the Maths and Physics Club IIT Bombay.
+												 </p>
+
+												<a href="https://stab-iitb.org/math-and-physics-club" class="btn btn-blue">Visit WebPage</a>
+												<a href="https://groups.google.com/forum/#!forum/mnp-club-iitb" class="btn btn-red">Join Google-Group</a>
+											</div><!-- /.col -->
+
+										</div><!-- /.row -->
+									</div><!-- /.tab-content -->
+
+									<div class="tab-content" id="tab-5">
+
+										<div class="row">
+
+											<div class="col-md-5 col-md-offset-1 col-sm-6 inner-right-xs">
+												<figure><img src="https://stab-iitb.org/assets/images/art/robo-small.png" alt=""></figure>
+											</div><!-- /.col -->
+
+											<div class="col-md-5 col-sm-6 inner-left-xs inner-top-xs">
+												<h3><a href="https://stab-iitb.org/robotics-club">Robotics CLub</a></h3>
+												<ul class="arrowed">
+													<li>To get a ‘club feeling’ within the students of IIT Bombay</li>
+													<li>Increasing participation of all the Student’s including PG’s, not just freshmen in club /li>
+													<li>Bringing out a product and not just a working model out of projects and other club events activities</li>
+												</ul>
+												<a href="https://stab-iitb.org/robotics-club" class="btn btn-blue">Visit WebPage</a>
+												<a href="https://groups.google.com/forum/#!forum/robotics-iitb" class="btn btn-red">Join Google-Group</a>
+											</div><!-- /.col -->
+
+										</div><!-- /.row -->
+
+									</div><!-- /.tab-content -->
+
+									<div class="tab-content" id="tab-6">
+
+										<div class="row">
+
+											<div class="col-md-5 col-md-push-5 col-md-offset-1 col-sm-6 col-sm-push-6 inner-left-xs">
+												<figure><img src="https://stab-iitb.org/assets/images/art/wncc-small.png" alt=""></figure>
+											</div><!-- /.col -->
+
+											<div class="col-md-5 col-md-pull-5 col-sm-6 col-sm-pull-6 inner-right-xs">
+												<h3><a href="https://stab-iitb.org/wncc">Web and Coding Club</a></h3>
+												<p>While students in IIT Bombay learn programming in their first year, they usually drop it after that. One of our goals is to help these people carry on with programming and retain it as the useful skill it is. For the people who already program, we wish to maintain a community of programmers from all spheres and help people reach greater heights. We also have a focus on improving IITB's student participation in open source, thus increasing the institute's footprint and instilling a sense of giving back to the community.
+												</p>
+
+												<a href="https://stab-iitb.org/wncc" class="btn btn-blue">Visit WebPage</a>
+												<a href="https://groups.google.com/forum/#!forum/wncc_iitb" class="btn btn-red">Join Google-Group</a>
+											</div><!-- /.col -->
+
+										</div><!-- /.row -->
+
+									</div><!-- /.tab-content -->
+
+								</div><!-- /.panel-container -->
+
+							</div><!-- /.tabs -->
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section>
+
+			<!-- ============================================================= SECTION – SERVICES : END ============================================================= -->
+			<!-- ============================================================= SECTION – STANDARD TABS TOP ============================================================= -->
+
+			<section id="standard-tabs-top" class="light-bg">
+				<div class="container inner">
+
+					<div class="row">
+						<div class="col-md-8 col-sm-9 center-block text-center">
+							<header>
+								<h1>Innovation Programme and Infrastructure</h1>
+							</header>
+						</div><!-- /.col -->
+					</div><!-- ./row -->
+
+					<div class="row">
+						<div class="col-xs-12 inner-top">
+							<div class="tabs tabs-top tab-container">
+
+								<ul class="etabs text-center">
+									<li class="tab"><a href="#tab-technovation">Technovation</a></li>
+									<li class="tab"><a href="#tab-tinkerer-lab">Tinkerers' Lab</a></li>
+								</ul><!-- /.etabs -->
+
+								<div class="panel-container">
+
+									<div class="tab-content" id="tab-technovation">
+										<div class="row">
+
+											<div class="col-md-5 col-md-offset-1 col-sm-6 inner-right-xs">
+												<figure><img src="https://stab-iitb.org/assets/images/art/technovation/parinat.png" alt="" style="width:auto;max-height:450px;"></figure>
+											</div><!-- /.col -->
+
+											<div class="col-md-5 col-sm-6 inner-top-xs inner-left-xs">
+												<h3><a href="#">Technovation</a></h3>
+												<p>Did you ever have an innovative idea but you just couldn’t get it going? Innovative technologies are the foundation of everything existing around you whether its new iPhone or your credit cards. But innovating new technologies needs money, inspiring leaders, dedicated teams and experience. This is where technovation steps in. What is Technovation? Technovation is a platform for students to float innovative projects, recruit teams, get funded, find mentors and realize their dream projects. Put simply its an expressway to innovation.</p>
+
+											<!-- <a href="https://stab-iitb.org/technovation" class="btn btn-blue">Visit WebPage</a> -->
+
+											</div><!-- /.col -->
+										</div><!-- /.row -->
+									</div><!-- /.tab-content -->
+
+									<div class="tab-content" id="tab-tinkerer-lab">
+										<div class="row">
+
+											<div class="col-md-5 col-md-push-5 col-md-offset-1 col-sm-6 col-sm-push-6 inner-left-xs">
+												<figure><img src="https://stab-iitb.org/assets/images/art/technovation/tl.jpg" alt=""></figure>
+											</div><!-- /.col -->
+
+											<div class="col-md-5 col-md-pull-5 col-sm-6 col-sm-pull-6 inner-top-xs inner-right-xs">
+												<h3><a href="http://stab-iitb.org/tinkerers-lab/">Tinkerers' Lab</a></h3>
+												<p>The dictionary defines a tinkerer as one who enjoys experimenting with machines. This lab is for all! Such tinkerers who love to do, for those who want limitless hands-on experience, for those who can spend hours tinkering. If you are turned on by machines and technology and integrated circuits, this place is built keeping you in mind.</p>
+												<p>Tinkerers needed something better, so we've got it for you. Tinkerers’ Lab has all you will need for projects and prototyping. We’ve got modern electrical and mechanical equipment in place and more is coming soon. The fresh and enabling environment makes this the perfect place for ideating, implementing and innovating. We have coffee too!</p>
+												<a href="http://stab-iitb.org/tinkerers-lab/" class="btn btn-blue">Visit WebPage</a>
+
+											</div><!-- /.col -->
+
+										</div><!-- /.row -->
+									</div><!-- /.tab-content -->
+
+
+								</div><!-- /.panel-container -->
+
+							</div><!-- /.tabs -->
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+
+				</div><!-- /.container -->
+			</section>
+
+			<!-- ============================================================= SECTION – STANDARD TABS TOP : END ============================================================= -->
+
+
+
+			<!-- ============================================================= SECTION – TEAM ============================================================= -->
+
+			<section id="team"  class="light-bg img-bg-softer" style="background-image: url(assets/images/art/pattern-background01.jpg);">
+				<div class="container inner-top inner-bottom-sm">
+
+					<div class="row">
+						<div class="col-md-9 col-sm-10 center-block text-center">
+							<header>
+								<h1>International Competing Technical Teams</h1>
+							</header>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+
+					<div class="row inner-top-sm text-center">
+
+						<div class="col-sm-4 inner-bottom-sm inner-left inner-right">
+							<figure class="member">
+
+								<div class="icn-link">
+									<a href="http://www.iitbracing.org/"><img src="https://stab-iitb.org/assets/images/art/fs.jpg" class="img-circle"></a>
+								</div><!-- /.icon-overlay -->
+
+								<figcaption>
+
+									<h2>
+										<a href="http://www.iitbracing.org/">IITB Racing</a>
+										<span>Formula Student</span>
+									</h2>
+
+									<blockquote>The IITB Racing team had recently participated in the Formula Student 2014, the largest student motorsport competition in the world. Formula Student is run by the Institute of Mechanical Engineers- IMechE, a UK based body, which challenges student engineers to design, build and race a single seat race-car within a year. </blockquote>
+
+								</figcaption>
+
+							</figure>
+						</div><!-- /.col -->
+
+						<div class="col-sm-4 inner-bottom-sm inner-left inner-right">
+							<figure class="member">
+
+								<div class="icn-link">
+									<a href="http://www.auv-iitb.org/"><img src="https://stab-iitb.org/assets/images/art/auv.jpg" class="img-circle"></a>
+								</div><!-- /.icon-overlay -->
+
+								<figcaption>
+
+									<h2>
+										<a href="http://www.auv-iitb.org/">AUV IITB</a>
+										<span>AUVSI Robosub Competition</span>
+									</h2>
+
+									<blockquote>AUV-IITB comprises of highly enthusiastic and hard working technocrats ranging from bright-eyed freshmen to driven senior undergraduates and tech-experienced post-graduates spanning various branches of engineering like Mechanical, Electrical, Software, Aerospace, Material Science and Civil at Indian Institute of Technology Bombay (IIT Bombay).</blockquote>
+
+								</figcaption>
+
+							</figure>
+						</div><!-- /.col -->
+
+						<div class="col-sm-4 inner-bottom-sm inner-left inner-right">
+							<figure class="member">
+
+								<div class="icn-link">
+									<a href="http://www.aero.iitb.ac.in/pratham/Pratham/"><img src="https://stab-iitb.org/assets/images/art/Pratham.jpg" class="img-circle"></a>
+								</div><!-- /.icon-overlay -->
+
+								<figcaption>
+
+									<h2>
+										<a href="http://www.aero.iitb.ac.in/pratham/Pratham/">Pratham</a>
+										<span>Student Satellite</span>
+									</h2>
+
+									<blockquote>The IIT Bombay Student Satellite Project is a landmark project taken up by IIT Bombay students. The objective of this project is to make IIT Bombay a respected centre for advancement in Satellite and Space Technology in the world. The project aims at launching at least 5 satellites within the next few years. These Satellites could be test-beds for new technology that is being developed in the institute and also a method for space qualification.</blockquote>
+
+								</figcaption>
+
+							</figure>
+						</div><!-- /.col -->
+
+					</div><!-- /.row -->
+
+					<div class="row text-center">
+
+						<div class="col-sm-4 inner-bottom-sm inner-left inner-right">
+							<figure class="member">
+
+								<div class="icn-link">
+									<a href="http://www.marssociety.org.in/"><img src="https://stab-iitb.org/assets/images/art/msi.png" class="img-circle"></a>
+								</div><!-- /.icon-overlay -->
+
+								<figcaption>
+
+									<h2>
+										<a href="http://www.marssociety.org.in/">Mars Rover</a>
+										<span>Mars Society of India</span>
+									</h2>
+
+									<blockquote>The Mars Society India (MSI) is an initiative by IIT Bombay students, taking the country a step further towards Mars exploration.</blockquote>
+									<blockquote>IIT Bombay currently being the chief patron, we are the official Indian chapter of The Mars Society, an international space advocacy dedicated to promoting the human exploration and settlement of the planet Mars. We are in the processing of expanding and extending our reach throughout the scientific community of India as well as beyond.</blockquote>
+
+								</figcaption>
+
+							</figure>
+						</div><!-- /.col -->
+
+						<div class="col-sm-4 inner-bottom-sm inner-left inner-right">
+							<figure class="member">
+
+								<div class="icn-link">
+									<a href="http://www.umic-iitb.org/"><img src="https://stab-iitb.org/assets/images/art/igvc.JPG" class="img-circle"></a>
+								</div><!-- /.icon-overlay -->
+
+								<figcaption>
+
+									<h2>
+										<a href="http://www.umic-iitb.org/">Innovation Cell</a>
+										<span><a href="www.igvc.org/">Intelligent Ground Vehicle Competition</a></span>
+									</h2>
+
+									<blockquote>Founded by Prof C Amarnath, Innovation Cell, formerly known as UMIC (Unmesh Mashruwala Innovation Cell), aims to foster an atmosphere of creativity, innovation, discovery and exploration on the campus. Innovation Cell provides infrastructural facilities to nurture inventions among students from various disciplines.</blockquote>
+
+								</figcaption>
+
+							</figure>
+						</div><!-- /.col -->
+
+						<div class="col-sm-4 inner-bottom-sm inner-left inner-right">
+							<figure class="member">
+
+								<div class="icn-link">
+									<a href="http://teamshunya.in/"><img src="https://stab-iitb.org/assets/images/art/shunya.jpg" class="img-circle"></a>
+								</div><!-- /.icon-overlay -->
+
+								<figcaption>
+
+									<h2>
+										<a href="http://teamshunya.in/">Team Shunya</a>
+										<span>Solar Decathon</span>
+									</h2>
+
+									<blockquote>Team Shunya, the first Indian team to get selected in Solar Decathlon Europe, aims to change the meaning of comfortable and affordable living for the middle class Indian households.</blockquote>
+									<blockquote>The Solar Decathlon is an international student competition taking place every two years. This competition was created in 2002 by the U.S. Department of Energy in order to develop the transmission of the knowledge and the research in the field of the green buildings, in particular solar energy.</blockquote>
+
+								</figcaption>
+
+							</figure>
+						</div><!-- /.col -->
+
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section>
+
+			<!-- ============================================================= SECTION – TEAM : END ============================================================= -->
+			</div>
+			<div class="col-xs-3 center-block text-center" id="myDIV">
+
+								<!-- <h2>Hot Links</h2> -->
+								<ul>
+							<!-- <li class="single-block">Welcome!!</li>
+ -->
+							</ul>
+								<!-- <div id="fb-div" class="fb-page" data-href="https://www.facebook.com/stab.iitb" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/stab.iitb"><a href="https://www.facebook.com/stab.iitb">Tech&#064;IITB</a></blockquote></div></div>
+			 -->
+				</div>
+			</div>
+		</main>
+
+		<!-- ============================================================= MAIN : END ============================================================= -->
+<!-- ============================================================= FOOTER ============================================================= -->
+
+		<footer class="dark-bg">
+
+			<div class="footer-bottom">
+				<div class="container inner">
+					<p class="pull-left">© 2016 STAB-IITB. All rights reserved. Designed by
+					<a href="http://www.cse.iitb.ac.in/~prateekchandan">Prateek Chandan</a> and maintained by
+					<a href="https://stab-iitb.org/team-stab-2016#Webteam">STAB Web Team</a>.
+					</p>
+					<ul class="footer-menu pull-right">
+						<li><a href="https://stab-iitb.org">Home</a></li>
+						<li><a href="https://stab-iitb.org/team-stab-2016">Contact</a></li>
+					</ul><!-- .footer-menu -->
+				</div><!-- .container -->
+			</div><!-- .footer-bottom -->
+		</footer>
+
+		<!-- ============================================================= FOOTER : END ============================================================= -->
+
+		<!-- JavaScripts placed at the end of the document so the pages load faster -->
+
+		<script src="https://stab-iitb.org/assets/js/jquery.easing.1.3.min.js"></script>
+		<script src="https://stab-iitb.org/assets/js/jquery.form.js"></script>
+		<script src="https://stab-iitb.org/assets/js/jquery.validate.min.js"></script>
+		<script src="https://stab-iitb.org/assets/js/bootstrap.min.js"></script>
+		<script src="https://stab-iitb.org/assets/js/bootstrap-hover-dropdown.min.js"></script>
+		<script src="https://stab-iitb.org/assets/js/skrollr.min.js"></script>
+		<script src="https://stab-iitb.org/assets/js/skrollr.stylesheets.min.js"></script>
+		<script src="https://stab-iitb.org/assets/js/waypoints.min.js"></script>
+		<script src="https://stab-iitb.org/assets/js/waypoints-sticky.min.js"></script>
+		<script src="https://stab-iitb.org/assets/js/owl.carousel.min.js"></script>
+		<script src="https://stab-iitb.org/assets/js/jquery.isotope.min.js"></script>
+		<script src="https://stab-iitb.org/assets/js/jquery.easytabs.min.js"></script>
+		<script src="https://stab-iitb.org/assets/js/viewport-units-buggyfill.js"></script>
+		<script src="https://stab-iitb.org/assets/js/scripts.js"></script>
+
+		<!-- For demo purposes – can be removed on production -->
+		<link href="https://stab-iitb.org/assets/css/green.css " rel="alternate stylesheet" title="Green color">
+		<link href="https://stab-iitb.org/assets/css/blue.css " rel="alternate stylesheet" title="Blue color">
+		<link href="https://stab-iitb.org/assets/css/red.css " rel="alternate stylesheet" title="Red color">
+		<link href="https://stab-iitb.org/assets/css/pink.css" rel="alternate stylesheet" title="Pink color">
+		<link href="https://stab-iitb.org/assets/css/purple.css" rel="alternate stylesheet" title="Purple color">
+		<link href="https://stab-iitb.org/assets/css/orange.css" rel="alternate stylesheet" title="Orange color">
+		<link href="https://stab-iitb.org/assets/css/navy.css" rel="alternate stylesheet" title="Navy color">
+		<link href="https://stab-iitb.org/assets/css/gray.css" rel="alternate stylesheet" title="Gray color">
+
+		<!-- // <script src="switchstylesheet/switchstylesheet.js"></script> -->
+
+		<script>
+			$(document).ready(function(){
+				$(".changecolor").switchstylesheet( { seperator:"color"} );
+			});
+		</script>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  //ga('create', 'UA-56449536-1', 'auto');
+		  ga('create', 'UA-47791016-3', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+	</body>
+</html>
+
