@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" style="cursor: url('assets/images/plane1.cur') , default;">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>STAB | IITB</title>
+
+        <!-- Bootstrap -->
+        <link href="../../Misc/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../Misc/assets/ionicons/css/ionicons.min.css" rel="stylesheet">        
+        <link href="../../Misc/assets/bower_components/flexslider/flexslider.css" rel="stylesheet">
+        <link rel='stylesheet' type="text/css" href="../../Misc/assets/dzsparallaxer/dzsparallaxer.css"/>
+        <!--main css file-->
+        <link href="../../Misc/assets/css/style.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body style="cursor: url('assets/images/plane.cur') , default;" onload="revamp()">
+        <!--pre-loader-->
+        <div id="preloader"></div>
+        <!--pre-loader-->
+        <!--back to top-->
+        <a href="#" class="scrollToTop"><i class="ion-ios-arrow-up"></i></a>
+        <!--back to top end-->
+
+        <!-- Static navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
+            <!-- Start Top Search -->
+            <div class="top-search">
+                <div class="container">
+                    <div class="input-group">
+						<span class="input-group-addon"><i class="ion-search"></i></span>
+						<form action="search.html" id="cse-search-box">
+						<input type="hidden" name="cx" value="015844430348475139480:9eplv9x8g6c" />
+						<input type="hidden" name="ie" value="UTF-8" />
+						<input type="text" name='q' class="form-control" placeholder="Search this site..." style="width:88%; padding-right:2%;"/>
+						<button type="submit" class="btn btn-cta btn-primary btn-lg">Search</button>
+						</form>
+					<span class="input-group-addon close-search" ><i class="ion-android-close"></i></span> 
+					</div>
+                </div>
+            </div>
+            <!-- End Top Search -->
+            <div class="container">
+                <!-- Start search Navigation -->
+                <div class="search-nav pull-right">
+
+                    <a href="javascript:void(0)"><i class="ion-search"></i></a>
+
+                </div>     
+                <!-- Start search Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="../../Misc/assets/images/logo-light.png" alt="" class="logo-default">
+                        <img src="../../Misc/assets/images/logo.png" alt="" class="logo-scroll">
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" onmouseover="revamp()">About<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://stab-iitb.org/vision-of-stab-team-2014-15">Vision</a></li>
+                                <li><a href="https://stab-iitb.org/hall-of-fame">Hall Of Fame</a></li>
+                                <li ><a href="#" onmouseover="tooglezz()">Report</a>
+									<div id="chill" style=" cursor:pointer" link="red" alink="red">
+									<ul class="boogy" style="float:right; list-style-type:square, default; padding-right:10%;">
+										<li><a href="https://stab-iitb.org/InstiReview-HobbyClubs-TechTeams" style="color:inherit; text-decoration:none;" >Institute Review 2013</a></li>
+										<li><a href="https://stab-iitb.org/annual_report_2014_2015" style="color:inherit; text-decoration:none;" >Anual Report 2014-2015</a></li>
+
+									</ul>
+									</div>
+								</li>
+                                <li ><a href="#" onmouseover="tooglez()">Contacts</a>
+									<div id="contacto" style=" cursor:pointer">
+									<ul style="float:right; list-style-type:square, default; padding-right:10%; ">
+										<li><a href="https://stab-iitb.org/team-stab-2016" style="color:inherit; text-decoration:none;" >Team 2016-2017</a></li>
+										<li><a href="https://stab-iitb.org/stab-alumni" style="color:inherit; text-decoration:none;" >Alumni</a></li>
+										<li><a href="https://stab-iitb.org/faculty-advisor-and-mentor" style="color:inherit; text-decoration:none;" >Faculty Advisors/ Mentors</a></li>
+									</ul>
+									</div>
+								</li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Clubs <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://stab-iitb.org/aeromodelling-club">Aeromodelling Club</a></li>
+                                <li><a href="https://stab-iitb.org/electronics-club/">Electronics Club</a></li>
+                                <li><a href="https://stab-iitb.org/krittika/">Krittika</a></li>
+                                <li><a href="https://stab-iitb.org/math-and-physics-club/">Math And Physics Club</a></li>
+								<li><a href="https://stab-iitb.org/robotics-club/">Robotics Club</a></li>
+								<li><a href="http://www.wncc-iitb.org/">Web And Coding Club</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://stab-iitb.org/srg/">Student Reading Group</a></li>
+						<li><a href="https://stab-iitb.org/wiki/Main_Page">STAB Wiki</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tech Teams <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://www.iitbracing.org/">IITB Racing</a></li>
+                                <li><a href="http://www.auv-iitb.org/Web/">AUV IITB</a></li>
+                                <li><a href="http://www.aero.iitb.ac.in/pratham/">Pratham</a></li>
+                                <li><a href="http://www.marssociety.org.in">Mars Rover</a></li>
+                                <li><a href="http://www.umic-iitb.org/">Innovation Cell</a></li>
+                                <li><a href="http://teamshunya.in/">Team Shunya</a></li>                   
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">IITB Corner <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://stab-iitb.org/lightsaber">Light Saber</a></li>
+                                <li><a href="https://stab-iitb.org/media/WELpermission.pdf">Web Lab Permission Form</a></li>
+                                <li><a href="https://stab-iitb.org/tech-gc-points-2016">Tech GC Ranking</a></li>
+                                <li><a href="https://stab-iitb.org/calendar2016">Tech Calender</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="btn btn-rounded btn-primary">Login</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+        </nav>
+        <div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 450px;">
+
+            <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(assets/images/bg.jpg)">
+            </div>
+            <div class=" parallax-text center-it page-title text-center">
+                <h1 class="text-uppercase" style="font-size:400%">IITB Corner</h1>
+
+            </div>
+        </div><!--end page header-->
+       
+       <div class="container">
+           <div class="space-90"></div>
+            <div class="row">
+				<div><center>
+						
+                    <div class="post">
+                        <div class="blog-desc">
+                        	<iframe src="https://calendar.google.com/calendar/embed?title=Stab%20Calendar%202016-17&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=66978ahtmob4medi6rs249sghg%40group.calendar.google.com&amp;color=%23865A5A&amp;src=a3rr86qgippgh8ua80e508l4vg%40group.calendar.google.com&amp;color=%23691426&amp;src=i4ub9n4vdp70c35820lfhtagvc%40group.calendar.google.com&amp;color=%238C500B&amp;src=9h5p0ki7gnmair697q3od6o2ag%40group.calendar.google.com&amp;color=%235229A3&amp;src=oeptbo1ms672rjuv1pbl023hqk%40group.calendar.google.com&amp;color=%232F6309&amp;src=eds69f70uu4c46ackcugkei7hc%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=Asia%2FCalcutta" style="border-width:0" width="1200" height="600" frameborder="0" scrolling="no"></iframe>
+                        	
+                        </div>
+                        
+                    </div><!--end post-->
+                    
+                </div>
+            </div>
+        </div>
+        <div class="space-90"></div>
+
+        <!--end page-->
+
+        <footer class="footer">
+            <div class="space-10"></div>
+            <div class="container">
+                <div class="row vertical-align-child">
+                    <div class="col-md-3 margin-b-30">
+                        <div class="margin-b-20">
+                            <a href="#">
+                                <img src="../../Misc/assets/images/logo-light.png" alt="">
+                            </a> 
+                        </div>
+                        <p>
+                            We are the Students' Technical Activities Body at IIT Bombay.
+                        </p>
+                    </div>
+                    <div class="col-md-2 margin-b-70">
+                        <ul class="list-unstyled">
+							<li><br></li>
+                            <li><a href="#">Contact Us</a></li>
+							<ul class="list-inline social">
+								<li><a href="https://www.facebook.com/stab.iitb"><i class="ion-social-facebook"></i></a></li>
+								<li><a href="https://stab-iitb.org/#"><i class="ion-social-googleplus"></i></a></li>
+								<li><a href="https://www.youtube.com/user/STABiitb"><i class="ion-social-youtube"></i></a></li>
+								<li><a href="https://github.com/stabiitb"><i class="ion-social-github"></i></a></li>
+							</ul>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 margin-b-70">
+                        <ul class="list-unstyled">
+                        </ul>
+                    </div>
+                    <div class="col-md-300 margin-b-70" style="float:right">
+                        <form class="signup-form navbar-form">
+							<br>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="UPDATE THIS SEARCH">
+                            </div>   
+                            <button type="submit" class="btn btn-cta btn-primary btn-lg">Search</button>                                 
+                        </form>
+                        <span>&copy;2016 STAB-IITB. All rights reserved </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+		<!-- JSCRIPT -->
+		<script>
+		function tooglezz(){
+			var godd=document.getElementById("chill");
+			document.getElementById("contacto").style.display='none';
+			if(godd.style.display == 'none') {
+				godd.style.display='block';
+			}
+			else {
+				godd.style.display='none';
+			}
+		}
+		function tooglez(){
+			var godd=document.getElementById("contacto");
+			document.getElementById("chill").style.display='none';
+			if(godd.style.display == 'none') {
+				godd.style.display='block';
+			}
+			else {
+				godd.style.display='none';
+			}
+		}
+		function revamp(){
+			document.getElementById("chill").style.display='none';
+			document.getElementById("contacto").style.display='none';
+			
+		}
+		</script>
+		
+        <!-- jQuery plugins-->
+        <script src="../../Misc/assets/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="../../Misc/assets/js/jquery-migrate.min.js"></script>
+        <script src="../../Misc/assets/js/jquery.easing.min.js"></script>
+        <script src="../../Misc/assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../Misc/assets/bower_components/flexslider/jquery.flexslider-min.js"></script>
+        <script src="../../Misc/assets/js/modernizr.custom.97074.js" type="text/javascript"></script>  
+        <script src="../../Misc/assets/js/template-custom.js" type="text/javascript"></script>
+        <script src="../../Misc/assets/dzsparallaxer/dzsparallaxer.js" type="text/javascript"></script>
+    </body>
+</html>
